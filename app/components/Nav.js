@@ -3,9 +3,9 @@ var NavLink = require('react-router-dom').NavLink;
 
 function Nav () {
   return(
-    <ul className='Nav'>
+    <ul className='nav'>
       <li>
-        <NavLink activeClassName='active' to='/'>
+        <NavLink exact activeClassName='active' to='/'>
           Home
         </NavLink>
       </li>
