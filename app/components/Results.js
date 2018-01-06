@@ -75,7 +75,7 @@ class Results extends React.Component {
         return {
           error: null,
           winner: results[0],
-          loser: reults[1],
+          loser: results[1],
           loading: false
         }
       });
